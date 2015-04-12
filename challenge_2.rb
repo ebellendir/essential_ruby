@@ -31,4 +31,10 @@ principal_amount = 200000.0
 #     Line 1 of this file.
 
 # ==============================================================
+  loan_quotes.each do |bankinfo|
+ 	# rate = bankinfo["annual_rate"]
+ 	payment = pmt(bankinfo["annual_rate"]/12, number_of_monthly_payments, principal_amount) 
+ 	puts "The monthly payment from #{bankinfo["bank"]} will be $#{payment.round(2)}."
+ 	#puts rate
+  end
 # ==============================================================
