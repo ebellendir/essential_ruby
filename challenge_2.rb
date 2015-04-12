@@ -31,9 +31,4 @@ principal_amount = 200000.0
 #     Line 1 of this file.
 
 # ==============================================================
-# Your code goes here.
-# You shouldn't have to write code or change code anywhere else.
-
-# loan_quotes.each ...
-
 # ==============================================================
